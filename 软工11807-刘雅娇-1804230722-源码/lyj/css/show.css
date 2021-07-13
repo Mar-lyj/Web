@@ -1,0 +1,41 @@
+.xiangq_font {
+	height: 42px;
+	line-height: 42px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.xiangq_font1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.xiangq_font2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.xiangq_font3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.buyimg {
+	width: 88px;
+	height: 88px;
+}
+
+.list-group {
+	border: ;
+}
+
+nav,
+div,
+button,
+input {
+	border-radius: 0px !important;
+}

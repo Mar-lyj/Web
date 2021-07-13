@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>商品详情</title>
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script>
+			
+			$(function(){
+				var str="http://localhost:8080/alipay/item.html?id=2";
+				
+				console.log(str.substr(str.indexOf("?")+1));
+				
+				
+			})
+			
+		</script>
+		<script src="js/bootstrap.min.js"></script>
+		<style>
+			 .tit{
+			 	height: 50px;
+			 	background: #1D222D;
+			 	box-sizing: border-box;
+			 }
+			.tit h3{
+				margin: 0;
+				color: #F5F5F5;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="tit">
+			 <h3>商品详情</h3>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 " style="padding-left: 0; padding-right: 0;">
+					<div class="thumbnail">
+						<img src="img/goods1.jpg" alt="...">
+						<div class="caption">
+							<h4>天籁弦音 蔡文姬Q版手办</h4>
+							<p style="color: red; font-size: 24px;">¥ 150.00</p>
+							<p>
+								<a href="#" class="btn btn-block btn-danger" role="button">立即购买</a>
+							</p>
+							<h4>商品描述:</h4>
+							<p>东西非常不错</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
